@@ -105,6 +105,25 @@ h5 span{
     background-color: #f4f1f1;
 }
 
+.contactSec{
+background-color: #212428;
+color:#ffffff ;
+}
+
+.contactSec h3{
+    font-size: 4em;
+    font-family: 'MyWebFont', Arial, sans-serif;
+    padding-top:40px;
+
+}
+.contactSec a{
+   color:#ffffff ;
+   text-decoration: none; 
+}
+
+.contactSec .contact-bg{
+    background-color: #212428;
+}
 
 
 .rk-script-headline{
@@ -134,6 +153,18 @@ line-height: 77px;
     grid-template-columns: repeat(12, 1fr);
     grid-template-rows: repeat(12, 1fr);
 
+}
+
+.white-link a{
+    color:#ffffff;
+    text-decoration: none;
+}
+
+
+
+/*accordian*/
+.accordian-button{
+    font-size: 2em !important;
 }
 
 
@@ -217,4 +248,12 @@ line-height: 77px;
 /* Large devices (desktops, 992px and up) */
   @media (min-width: 992px) {
 
+  }
+
+  bgc1{
+    background-color: lightsteelblue;
+  }
+
+   bgc2{
+    background-color: lightgreen;
   }
