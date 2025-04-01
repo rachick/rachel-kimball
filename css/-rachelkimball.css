@@ -66,8 +66,10 @@ h5 span{
         background-color: #ffffff;
     }
 
-
-
+.container, .container-fluid, .container-lg, .container-md, .container-sm, .container-xl, .container-xxl {
+    padding-right: calc(var(--bs-gutter-x)* 0) !important;
+    padding-left: calc(var(--bs-gutter-x)* 0) !important;
+}
 
 .img-bg-design {
             background: url('../img/rk/parallax-design.jpg') no-repeat;
@@ -108,6 +110,7 @@ h5 span{
 .contactSec{
 background-color: #212428;
 color:#ffffff ;
+padding:40px 0;
 }
 
 .contactSec h3{
