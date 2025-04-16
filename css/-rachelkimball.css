@@ -44,6 +44,10 @@ h5 span{
     display: none;
 }*/
 
+.secPad{
+    padding: 10px 30px;
+}
+
   .clearfix {
 
     clear: both;
